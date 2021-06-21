@@ -1,6 +1,8 @@
 const container = document.querySelector(".container")
 
-for (let i = 0; i < 17; i++) {
+const n = 16;
+const squares = n * n;
+for (let i = 0; i <= squares; i++) {
     const div = document.createElement('div');
     div.setAttribute('id', 'child')
     container.appendChild(div);
